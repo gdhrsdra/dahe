@@ -1,0 +1,47 @@
+{
+  "id": "./",
+  "name": "پنل دهه ۶۰",
+  "short_name": "دهه ۶۰",
+  "description": "ثبت سفارش، گزارش فروش و موجودی دهه ۶۰",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#EEEBE2",
+  "theme_color": "#B3581A",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "ثبت سفارش",
+      "url": "./"
+    },
+    {
+      "name": "گزارش فروش",
+      "url": "./?tab=report"
+    },
+    {
+      "name": "موجودی",
+      "url": "./?tab=stock"
+    }
+  ]
+}
